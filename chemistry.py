@@ -236,7 +236,7 @@ def main():
     formula_name = get_formula_name(chemical_formula, known_molecules_dict)
     total_protons = sum_protons(symbol_quantity_list, periodic_table_dict)
     
-    print(f"Molar Mass: {molar_mass:.5f} g/mol")
+    print(f"Molar Mass: {molar_mass:.5f} grams/mole")
     print(f"Number of Moles: {number_of_moles:.5f} moles")
     print(f"Formula Name: {formula_name}")
     print(f"Total Protons: {total_protons}")
