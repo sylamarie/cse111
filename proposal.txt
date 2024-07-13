@@ -1,0 +1,66 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+    Personal Finance Tracker
+
+2. What real-world problem will your program address or help to solve?
+    Many people struggle with managing their finances effectively. 
+    This program aims to provide a tool for individuals to track and 
+    manage their personal finances, including income, expenses, budgeting, and savings goals.
+
+3. What will you learn from developing this program?
+    - Gain proficiency in Python programming, particularly in handling data structures and file operations.
+    - Learn to develop a graphical user interface (GUI) using the tkinter module.
+    - Understand the principles of data analysis and visualization using pandas and matplotlib.
+    - Practice writing testable functions and conducting unit testing with pytest.
+    - Improve skills in project planning, documentation, and time management.
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+    - tkinter (for GUI development)
+    - pandas (for data handling and analysis)
+    - matplotlib (for data visualization)
+    - csv (for reading and writing CSV files)
+    - pytest (for writing and executing test functions)
+
+5. List the names of functions you will need?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+    - load_data(filename): Loads financial data from a CSV file.
+    - save_data(data, filename): Saves updated financial data to a CSV file.
+    - calculate_total_income(data): Computes the total income from the loaded data.
+    - calculate_total_expenses(data): Computes the total expenses from the loaded data.
+    - calculate_savings(data): Computes the savings based on income and expenses.
+    - create_budget(data): Allows the user to set up a budget plan.
+    - visualize_data(data): Generates graphical plots to visualize financial trends.
+
+6. List the names of the test functions you will write.
+    - test_load_data: Tests the load_data function to ensure it correctly reads data from a CSV file.
+    - test_save_data: Tests the save_data function to verify it correctly saves data to a CSV file.
+    - test_calculate_total_income: Tests the calculate_total_income function with sample data.
+    - test_calculate_total_expenses: Tests the calculate_total_expenses function with sample data.
+    - test_calculate_savings: Tests the calculate_savings function to validate savings calculations.
+    - test_create_budget: Tests the create_budget function to ensure it correctly sets up a budget plan.
+    - test_visualize_data: Tests the visualize_data function to confirm it generates expected plots.

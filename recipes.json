@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Pancakes",
+        "ingredients": [
+            {
+                "name": "flour",
+                "quantity": 400,
+                "unit": "grams"
+            },
+            {
+                "name": "milk",
+                "quantity": 600,
+                "unit": "ml"
+            },
+            {
+                "name": "egg",
+                "quantity": 4,
+                "unit": "pieces"
+            }
+        ]
+    },
+    {
+        "name": "Pancakes",
+        "ingredients": [
+            {
+                "name": "flour",
+                "quantity": 400,
+                "unit": "grams"
+            },
+            {
+                "name": "milk",
+                "quantity": 600,
+                "unit": "ml"
+            },
+            {
+                "name": "egg",
+                "quantity": 4,
+                "unit": "pieces"
+            }
+        ]
+    }
+]
